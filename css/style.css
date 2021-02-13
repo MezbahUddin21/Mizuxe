@@ -1,0 +1,145 @@
+body,section,div {
+  scroll-behavior: smooth;
+   }
+.dropdown-menu{
+  background: #81898E
+}
+.nav-link {
+  color: #333;
+  font-size: 20px;
+}
+.nav-item:hover{
+	color: red;
+}
+.navbar{
+	background: ;
+	box-shadow: 2px 2px 5px #347784;
+}
+.img1{
+	border-radius: 50%;
+	opacity: 0.8;
+	border:2px solid black;
+}
+.img2{
+	opacity: 0.7;
+	border: 2px solid white;
+	height: 400px;
+	 margin: 80px 10px 80px 130px;
+}
+
+#home-section{
+  background:url('../img/pixel4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  padding-top: 70px;
+ 
+
+ }
+ .section2{
+ 	background: #292B26;
+ 	border-top:1px solid #ABB1BA;
+ 	border-bottom:1px solid #ABB1BA;
+ 	border-radius: 4px
+
+ }
+ #section3{
+
+  background: url('../img/pixel3.jpg');
+ }
+ .section-con{
+    background: #000000a6
+
+ }
+
+ .card1{
+ 	
+ }
+ .primary{
+ 	background: #282923e6;
+ 	min-height: 400px
+ }
+ .from1{
+ 	background: #C89582
+ }
+ .section4{
+ 	background: #393A35;
+ 	padding: 60px
+
+ }
+ #section5{
+   padding-top: 50px;
+ }
+ #images{
+  border-radius: 50%
+ }
+ #images{
+  margin-top: -80px
+ }
+ .image-div{
+  padding-top: 100px;
+ }
+ .image-card {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+ }
+ .image-card::before {
+  content: '';
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.image-card:hover::before {
+  background: #393A35;
+top: 0;
+  border-radius: 0px;
+}
+.image-card:hover{
+  color: #fff;
+}
+ .image-card:hover .icon-div{
+  background: #C7CBD1;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 3px
+ }
+.submite-button {
+  border-radius: 0
+}
+.last-img{
+  border: 5px solid black;
+  opacity: 0.7;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+ @media(max-width: 500px){
+  	.display2{
+  		font-size: 40px
+  	}	
+  	.display3{
+      font-size: 40px
+    }
+    .h5-sm{
+      font-size: 15px
+    }
+    .lead{
+      font-size: 15px
+    }
+
+ }
+ @media(max-width: 993px){
+  
+  }
+
+ }
